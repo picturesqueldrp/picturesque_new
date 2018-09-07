@@ -6,6 +6,9 @@
 	templated.co @templatedco
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 */
+.dropdown{
+	font-size: 10px;
+}
 
 /* Reset */
 
@@ -897,6 +900,7 @@
 			-webkit-font-smoothing: antialiased;
 			font-family: FontAwesome;
 			font-style: normal;
+			font-size:3em
 			font-weight: normal;
 			text-transform: none !important;
 		}
@@ -1395,9 +1399,9 @@
 
 	#nav {
 		background: #0d1217;
-		z-index: 10002;
+		z-index: 100002;
 		position: relative;
-		width: 11em;
+		width: 6em;
 	}
 
 		#nav ul {
@@ -1411,8 +1415,8 @@
 
 			#nav ul li {
 				padding: 0;
-				width: 8em;
-				text-align: Center;
+				width: 5em;
+				text-align: center;
 				margin-bottom: 1em;
 			/*	float: left;*/
 			}
@@ -1618,29 +1622,27 @@
    /* background-color: #1ACF50; */
     color: grey;
     padding: 3px;
-    font-size: 16px;
+    font-size: 55px;
     border: none;
+	cursor: pointer;
 }
 .dropdown {
     display: none;
     position: absolute;
    /* background-color: #f1f1f1; */
-    min-width: 160pxpx;
+    min-width: 16px;
     box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
 
 .dropdown a {
     color: black;
-    padding: 12px 16px;
+    padding: 9px 0px;
     text-decoration: none;
     display: block;
 }
-.dropdown a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
+.drpbtn:hover {
+	color: white;
 }
 
 .dropdown a:hover {background-color: #ddd;}

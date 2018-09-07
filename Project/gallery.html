@@ -6,30 +6,53 @@
 -->
 <html>
 	<head>
-		<title>Gallery - Snapshot by TEMPLATED</title>
+		
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<style>
+			.dropdown{
+				font-size: 10px;
+			}
+			.drpbtn{
+				font-size:25px;
+			}
+		</style>
 	</head>
 	<body>
 		<div class="page-wrap">
 
 			<!-- Nav -->
-				<nav id="nav">
+				<span id="nav">
 					<ul>
 						<li><a href="index.html"><span class="icon fa-home"></span></a></li>
 						<li><a href="gallery.html" class="active"><span class="icon fa-camera-retro"></span></a></li>
-						<li><a href="generic.html"><span class="icon fa-file-text-o"></span></a></li>
+					<!--	<li><a href="generic.html"><span class="icon fa-file-text-o"></span></a></li> --> 
+						<li>
+							<div class="drop_menu">
+								<div class="drpbtn"><span class="icon fa-file-text-o" ></span></div>
+									<div class="dropdown">
+										<a href="fashion.html">Fashion</a>
+										<a href="wedding.html">Wedding</a>
+										<a href="travel.html">Travel</a>
+										<a href="event.html">Event</a>
+										<a href="interior.html">Interior</a>
+										<a href="sports.html">Sports</a>
+										<a href="commercial.html">Commercial</a>
+										<a href="food.html">Food</a>
+									</div>
+							</div>		
+						</li> 
 					</ul>
-				</nav>
+				</span>
 
 			<!-- Main -->
 				<section id="main">
 
-					<!-- Header -->
+					<!-- Header 
 						<header id="header">
 							<div>Snapshot <span>by TEMPLATED</span></div>
-						</header>
+						</header> -->
 
 					<!-- Gallery -->
 						<section id="galleries">
@@ -41,16 +64,20 @@
 										<header>
 											<h1>Gallery</h1>
 											<ul class="tabs">
-												<li><a href="#" data-tag="all" class="button active">All</a></li>
-												<li><a href="#" data-tag="people" class="button">People</a></li>
-												<li><a href="#" data-tag="place" class="button">Places</a></li>
-												<li><a href="#" data-tag="thing" class="button">Things</a></li>
+												<li><a href="#" data-tag="all" class="button ">Fashion</a></li>
+												<li><a href="#" data-tag="people" class="button">Wedding</a></li>
+												<li><a href="#" data-tag="place" class="button active">Travel</a></li>
+												<li><a href="#" data-tag="thing" class="button">Event</a></li>
+												<li><a href="#" data-tag="thing" class="button">Interior</a></li>
+												<li><a href="#" data-tag="thing" class="button">Sports</a></li>
+												<li><a href="#" data-tag="thing" class="button">Commercial</a></li>
+												<li><a href="#" data-tag="thing" class="button">Food</a></li>
 											</ul>
 										</header>
 
 										<div class="content">
 											<div class="media all people">
-												<a href="images/fulls/01.jpg"><img src="images/thumbs/01.jpg" alt="" title="This right here is a caption." /></a>
+												<a href="images/fulls/travel_1.jpg"><img src="images/thumbs/01.jpg" alt="" title="This right here is a caption." /></a>
 											</div>
 											<div class="media all place">
 												<a href="images/fulls/05.jpg"><img src="images/thumbs/05.jpg" alt="" title="This right here is a caption." /></a>
@@ -131,7 +158,7 @@
 					<!-- Footer -->
 						<footer id="footer">
 							<div class="copyright">
-								&copy; Untitled Design: <a href="https://templated.co/">TEMPLATED</a>. Images: <a href="https://unsplash.com/">Unsplash</a>.
+								&copy; Designed By: <!--<a href="https://templated.co/">TEMPLATED</a>. Images: <a href="https://unsplash.com/">Unsplash</a>.-->
 							</div>
 						</footer>
 				</section>
